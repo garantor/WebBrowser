@@ -1,0 +1,16 @@
+<!DOCTYPE RCC>
+<RCC version="1.0">
+    <qresource>
+        <file>icons\facebook.png</file>
+        <file>icons\gmail.png</file>
+        <file>icons\google.png</file>
+        <file>icons\Linkedin.png</file>
+        <file>icons\others.png</file>
+        <file>icons\reddit.png</file>
+        <file>icons\telegram.png</file>
+        <file>icons\twitter.png</file>
+        <file>icons\whatsapp.png</file>
+        <file>icons\yahoomail.png</file>
+        <file>icons\boomplayer.png</file>
+    </qresource>
+</RCC>

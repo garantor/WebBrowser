@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>794</width>
+    <height>591</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(252, 252, 252);
+background-color: rgb(54, 99, 234);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>-19</y>
+      <width>601</width>
+      <height>621</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="title">
+     <string>Enter New Url</string>
+    </property>
+    <widget class="QLineEdit" name="lineEdit">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>40</y>
+       <width>541</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 11pt &quot;Verdana&quot;;
+background-color: rgb(229, 229, 229);
+color: rgb(255, 255, 255);
+border-radius: 9px;
+color: rgb(0, 0, 0);
+
+</string>
+     </property>
+     <property name="placeholderText">
+      <string>Please Paste Your Url Here as copied from the browser</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_10">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>100</y>
+       <width>511</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(54, 99, 234);
+border-color: black;
+font: 75 10pt &quot;Verdana&quot;;
+color: rgb(255, 255, 255);
+border-radius: 12px;
+
+
+</string>
+     </property>
+     <property name="text">
+      <string>Go</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>160</y>
+       <width>511</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 11pt &quot;Verdana&quot;;
+background-color: rgb(229, 229, 229);
+color: rgb(255, 255, 255);
+border-radius: 13px;
+color: rgb(0, 0, 0);
+
+</string>
+     </property>
+     <property name="text">
+      <string>Please Click On 'Other' to Enable this Box</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </widget>
+   <widget class="Line" name="line">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>-70</y>
+      <width>20</width>
+      <height>681</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(54, 99, 234);
+
+
+</string>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>12</x>
+      <y>12</y>
+      <width>181</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Verdana</family>
+      <pointsize>10</pointsize>
+      <weight>9</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(54, 99, 234);
+color: rgb(54, 99, 234);
+background-color: rgb(255, 255, 255);
+font: 75 10pt &quot;Verdana&quot;;
+border-radius: 12px;
+
+</string>
+    </property>
+    <property name="text">
+     <string>Twitter</string>
+    </property>
+    <property name="icon">
+     <iconset resource="icons.qrc">
+      <normaloff>:/icons/twitter.png</normaloff>:/icons/twitter.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>32</width>
+      <height>32</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_6">
+    <property name="geometry">
+     <rect>
+      <x>12</x>
+      <y>47</y>
+      <width>181</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Verdana</family>
+      <pointsize>10</pointsize>
+      <weight>9</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(54, 99, 234);
+color: rgb(54, 99, 234);
+background-color: rgb(255, 255, 255);
+font: 75 10pt &quot;Verdana&quot;;
+border-radius: 12px;
+
+</string>
+    </property>
+    <property name="text">
+     <string>Reddit</string>
+    </property>
+    <property name="icon">
+     <iconset resource="icons.qrc">
+      <normaloff>:/icons/reddit.png</normaloff>:/icons/reddit.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>32</width>
+      <height>32</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_4">
+    <property name="geometry">
+     <rect>
+      <x>12</x>
+      <y>82</y>
+      <width>181</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="whatsThis">
+     <string/>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(54, 99, 234);
+color: rgb(54, 99, 234);
+background-color: rgb(255, 255, 255);
+font: 75 10pt &quot;Verdana&quot;;
+border-radius: 12px;
+
+</string>
+    </property>
+    <property name="text">
+     <string>YahooMail</string>
+    </property>
+    <property name="icon">
+     <iconset resource="icons.qrc">
+      <normaloff>:/icons/yahoomail.png</normaloff>:/icons/yahoomail.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>32</width>
+      <height>32</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_11">
+    <property name="geometry">
+     <rect>
+      <x>12</x>
+      <y>117</y>
+      <width>181</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(54, 99, 234);
+color: rgb(54, 99, 234);
+background-color: rgb(255, 255, 255);
+font: 75 10pt &quot;Verdana&quot;;
+border-radius: 12px;
+</string>
+    </property>
+    <property name="text">
+     <string>Google</string>
+    </property>
+    <property name="icon">
+     <iconset resource="icons.qrc">
+      <normaloff>:/icons/google.png</normaloff>:/icons/google.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>32</width>
+      <height>32</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>12</x>
+      <y>152</y>
+      <width>181</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(54, 99, 234);
+color: rgb(54, 99, 234);
+background-color: rgb(255, 255, 255);
+font: 75 10pt &quot;Verdana&quot;;
+border-radius: 12px;
+
+</string>
+    </property>
+    <property name="text">
+     <string>Linkedin</string>
+    </property>
+    <property name="icon">
+     <iconset resource="icons.qrc">
+      <normaloff>:/icons/Linkedin.png</normaloff>:/icons/Linkedin.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>32</width>
+      <height>32</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>12</x>
+      <y>187</y>
+      <width>181</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(54, 99, 234);
+color: rgb(54, 99, 234);
+background-color: rgb(255, 255, 255);
+font: 75 10pt &quot;Verdana&quot;;
+border-radius: 12px;
+
+</string>
+    </property>
+    <property name="text">
+     <string>Facebook</string>
+    </property>
+    <property name="icon">
+     <iconset resource="icons.qrc">
+      <normaloff>:/icons/facebook.png</normaloff>:/icons/facebook.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>32</width>
+      <height>32</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_7">
+    <property name="geometry">
+     <rect>
+      <x>12</x>
+      <y>222</y>
+      <width>181</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(54, 99, 234);
+color: rgb(54, 99, 234);
+background-color: rgb(255, 255, 255);
+font: 75 10pt &quot;Verdana&quot;;
+border-radius: 12px;
+
+</string>
+    </property>
+    <property name="text">
+     <string>WhatsApp</string>
+    </property>
+    <property name="icon">
+     <iconset resource="icons.qrc">
+      <normaloff>:/icons/whatsapp.png</normaloff>:/icons/whatsapp.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>32</width>
+      <height>32</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_8">
+    <property name="geometry">
+     <rect>
+      <x>12</x>
+      <y>257</y>
+      <width>181</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(54, 99, 234);
+color: rgb(54, 99, 234);
+background-color: rgb(255, 255, 255);
+font: 75 10pt &quot;Verdana&quot;;
+border-radius: 12px;
+
+</string>
+    </property>
+    <property name="text">
+     <string>Telegram</string>
+    </property>
+    <property name="icon">
+     <iconset resource="icons.qrc">
+      <normaloff>:/icons/telegram.png</normaloff>:/icons/telegram.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>32</width>
+      <height>32</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_9">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>350</y>
+      <width>181</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(54, 99, 234);
+color: rgb(54, 99, 234);
+background-color: rgb(255, 255, 255);
+font: 75 10pt &quot;Verdana&quot;;
+border-radius: 12px;
+
+</string>
+    </property>
+    <property name="text">
+     <string>Others</string>
+    </property>
+    <property name="icon">
+     <iconset resource="icons.qrc">
+      <normaloff>:/icons/others.png</normaloff>:/icons/others.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>32</width>
+      <height>32</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_5">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>290</y>
+      <width>181</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(54, 99, 234);
+color: rgb(54, 99, 234);
+background-color: rgb(255, 255, 255);
+font: 75 10pt &quot;Verdana&quot;;
+border-radius: 12px;
+
+</string>
+    </property>
+    <property name="text">
+     <string>Gmail</string>
+    </property>
+    <property name="icon">
+     <iconset resource="icons.qrc">
+      <normaloff>:/icons/gmail.png</normaloff>:/icons/gmail.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>32</width>
+      <height>32</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_12">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>320</y>
+      <width>181</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(54, 99, 234);
+color: rgb(54, 99, 234);
+background-color: rgb(255, 255, 255);
+font: 75 10pt &quot;Verdana&quot;;
+border-radius: 12px;
+
+</string>
+    </property>
+    <property name="text">
+     <string>BoomPlay</string>
+    </property>
+    <property name="icon">
+     <iconset resource="icons.qrc">
+      <normaloff>:/icons/boomplayer.png</normaloff>:/icons/boomplayer.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>32</width>
+      <height>32</height>
+     </size>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>794</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="icons.qrc"/>
+ </resources>
+ <connections/>
+</ui>
